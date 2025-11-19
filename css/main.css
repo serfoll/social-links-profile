@@ -138,3 +138,15 @@ footer {
 .attribution a:active {
   color: var(--white);
 }
+
+@media (min-width: 40rem) {
+  :root {
+    /* SIZES */
+    --avatar-w: calc(94 / 16 * 1rem);
+  }
+
+  .card {
+    padding: calc(40 / 16 * 1rem);
+    width: calc(380 / 16 * 1rem);
+  }
+}
