@@ -1,0 +1,40 @@
+/** @format */
+@import url('./typography.css');
+
+:root {
+  /* COLORS */
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+/* RESET */
+* {
+  border: 0;
+  box-sizing: border-box;
+  font: inherit;
+  font-style: normal;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-normal);
+  height: 100vh;
+  line-height: var(--line-height-body);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
