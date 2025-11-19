@@ -60,7 +60,7 @@ main {
 .card {
   background-color: var(--grey-800);
   border-radius: var(--spacing-12);
-  box-shadow: 0px calc(20 / 16 * 1rem) calc(24 / 16 * 1rem)
+  box-shadow: 0rem calc(20 / 16 * 1rem) calc(24 / 16 * 1rem)
     hsla(0, 100%, 0%, 0.08);
   padding: var(--spacing-24);
   text-align: center;
